@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rayya Ramadhan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header p {
+            color: #94a3b8;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .about, .projects, .contact {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .projects .card {
+            background: #1e293b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .projects .card:hover {
+            transform: translateY(-5px);
+            background: #334155;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #1e293b;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rayya Ramadhan</h1>
+    <p>Web Developer | UI Designer | Freelancer</p>
+    <nav>
+        <a href="#about">Tentang</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>
+        Halo! Saya Rayya Ramadhan, seorang web developer yang fokus pada pembuatan website modern dan responsif.
+        Saya suka membangun tampilan yang clean dan user-friendly.
+    </p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Project Saya</h2>
+
+    <div class="card">
+        <h3>Website Company Profile</h3>
+        <p>Membuat website profesional untuk bisnis dengan desain modern.</p>
+    </div>
+
+    <div class="card">
+        <h3>Landing Page Produk</h3>
+        <p>Landing page untuk meningkatkan konversi penjualan.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Kontak</h2>
+    <p>Email: rayya@email.com</p>
+    <a href="#">LinkedIn</a>
+</section>
+
+<footer>
+    © 2026 Rayya Ramadhan. All rights reserved.
+</footer>
+
+</body>
+</html>
